@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Reply()
+const Reply =(props) =>
 {
-    return<h2>I am Kakarot</h2>
+    console.log(props)
+    return <h1> hello { props.name } example</h1>   
 }
-
 export default Reply

@@ -1,5 +1,9 @@
 import React from 'react'
 
-const Greet = () => <h1>Hello who is this? </h1>
+const Greet = () => {
+
+    return React.createElement('div', null ,
+     React.createElement('h1',null,'withoutjsx'))
+}
 
 export default Greet
